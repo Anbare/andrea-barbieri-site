@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cookie Policy | Andrea Barbieri</title>
+    <meta
+      name="description"
+      content="Informativa sui cookie del sito di Andrea Barbieri."
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#contenuto">Salta al contenuto</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="Torna alla Home">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span class="brand-text">Andrea Barbieri</span>
+        </a>
+
+        <nav class="nav" aria-label="Navigazione principale">
+          <a class="btn btn-sm btn-ghost" href="index.html#contatti"
+            >Contatti</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <main id="contenuto">
+      <section class="section">
+        <div class="container" style="max-width: 75ch">
+          <header class="section-head">
+            <h1 class="h1">Cookie Policy</h1>
+            <p class="muted">
+              Ultimo aggiornamento: <strong>25/12/2025</strong>
+            </p>
+          </header>
+
+          <div class="card">
+            <h2 class="h2">Cosa sono i cookie</h2>
+            <p class="muted">
+              I cookie sono piccoli file di testo che i siti salvano sul
+              dispositivo dell’utente per far funzionare correttamente le pagine
+              e migliorare l’esperienza.
+            </p>
+
+            <h2 class="h2" style="margin-top: 2rem">
+              Cookie utilizzati da questo sito
+            </h2>
+            <p class="muted">
+              Questo sito utilizza esclusivamente cookie tecnici necessari al
+              funzionamento, e non utilizza cookie di profilazione.
+            </p>
+
+            <h3 class="h3" style="margin-top: 1.25rem">Cookie tecnici</h3>
+            <p class="muted">
+              Possono includere cookie indispensabili per la navigazione e per
+              la corretta visualizzazione dei contenuti.
+            </p>
+
+            <h2 class="h2" style="margin-top: 2rem">
+              Cookie di misurazione (Analytics)
+            </h2>
+            <p class="muted">
+              Se acconsenti tramite il banner, il sito può utilizzare cookie di
+              misurazione (Analytics) per raccogliere informazioni aggregate
+              sull’uso del sito (es. pagine visitate, tempi di permanenza).
+              Questi dati vengono usati per migliorare i contenuti e
+              l’esperienza.
+            </p>
+            <p class="muted">
+              Se non acconsenti, Analytics non viene caricato e non vengono
+              installati cookie di misurazione.
+            </p>
+
+            <h2 class="h2" style="margin-top: 2rem">Come gestire i cookie</h2>
+            <p class="muted">
+              Puoi gestire o disabilitare i cookie dalle impostazioni del tuo
+              browser. Disabilitare alcuni cookie tecnici potrebbe compromettere
+              il corretto funzionamento del sito.
+            </p>
+
+            <h2 class="h2" style="margin-top: 2rem">Contatti</h2>
+            <p class="muted">
+              Per informazioni puoi scrivere a:
+              <a class="link" href="mailto:info.andrea.barbieri@gmail.com"
+                >info.andrea.barbieri@gmail.com</a
+              >
+            </p>
+
+            <p class="muted" style="margin-top: 1rem">
+              Vuoi cambiare la tua scelta?
+              <button
+                class="btn btn-sm btn-ghost"
+                type="button"
+                id="reset-consent"
+              >
+                Cambia preferenze
+              </button>
+              <span class="sr-only"
+                >Reimposta il consenso e riapre il banner dei cookie.</span
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p class="muted">© <span id="year"></span> Andrea Barbieri</p>
+        <div class="footer-links">
+          <a class="link" href="privacy.html">Privacy</a>
+          <a class="link" href="index.html">Home</a>
+        </div>
+      </div>
+    </footer>
+
+    <div class="cookie-banner" data-cookie-banner hidden>
+      <div
+        class="cookie-banner__inner"
+        role="dialog"
+        aria-modal="false"
+        aria-label="Preferenze cookie"
+      >
+        <div class="cookie-banner__text">
+          <p class="cookie-banner__title">Cookie e misurazione</p>
+          <p class="cookie-banner__desc">
+            Usiamo cookie tecnici necessari al funzionamento del sito. Con il
+            tuo consenso, possiamo usare cookie di misurazione (Analytics) per
+            capire cosa funziona e migliorare i contenuti.
+          </p>
+          <p class="cookie-banner__links">
+            <a class="link" href="cookie.html">Leggi la Cookie Policy</a>
+            <span aria-hidden="true"> · </span>
+            <a class="link" href="privacy.html">Privacy</a>
+          </p>
+        </div>
+
+        <div class="cookie-banner__actions">
+          <button class="btn btn-ghost" type="button" data-cookie-reject>
+            Rifiuta
+          </button>
+          <button class="btn btn-primary" type="button" data-cookie-accept>
+            Accetta
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/cookie-consent.js"></script>
+    <script src="js/reset-consent.js"></script>
+    <script src="js/site.js" defer></script>
+  </body>
+</html>
